@@ -1,0 +1,68 @@
+[
+    {
+        "site": "glassdoor",
+        "job_url": "https://www.glassdoor.com/job-listing/j?jl=1009281041871",
+        "job_url_direct": "https://www.glassdoor.com/job-listing/j?jl=1009281041871",
+        "title": "Machine Learning Engineer II",
+        "company": "Tech Solutions Inc.",
+        "location": "San Francisco, CA",
+        "job_type": "Full-Time",
+        "date_posted": "2024-05-01",
+        "interval": "Monthly",
+        "min_amount": 9000,
+        "max_amount": 12000,
+        "currency": "USD",
+        "is_remote": true,
+        "emails": [
+            "hr@techsolutions.com",
+            "jobs@techsolutions.com"
+        ],
+        "description": "Machine Learning Engineer II\n\nCodaMetrix is revolutionizing Revenue Cycle Management with its AI-powered autonomous coding solution, a multi-specialty AI-platform that translates clinical information into accurate sets of medical codes. CodaMetrix’s autonomous coding supports improved patient care and drives efficiency under fee-for-service and value-based care models.\n\nWe are passionate about getting doctors away from the keyboard and back to clinical care.\n\nThe Team\n\nAt CodaMetrix, the Machine Learning and AI team is responsible for the invention, analysis, and deployment of new machine learning techniques using healthcare data to improve administrative and clinical medicine.\n\nThe Role\n\nAs a Machine Learning Engineer II with CodaMetrix you will help with translating proof-of-concept ideas to product grade solutions. You will work closely with data scientists, product owners, and backend engineers to gather requirements and understand performance criteria to deliver solutions that bring our AI-driven robust and scalable products to market. The Machine Learning Engineer II reports to the Director of Architecture.\n\nResponsibilities\nParticipate in all team activities, including agile ceremonies and reviews of other engineers designs and code.\nBuild and maintain the ML infrastructure used by the ML Team and used in production.\nProcess, transform, and enrich incoming data in order to be compatible with our ML infrastructure and for use by the ML Team.\nDevelop pipelines and build customer models in support of production.\nEstablish processes for managing the transitions from proof-of-concept to production.\nPromote best practice software development principles.\nCollaborate with machine learning, engineering, product development, professional services, DevOps, Data Intelligence, and coding quality assessment teams, for development & deployment of new machine learning techniques and follow deployments, tracking issues, and successes.\nRequirements\nMaster's degree in software engineering, computer science or a related technical field with significant course or project work in machine learning, artificial intelligence, or data science. Candidates with a bachelor’s degree with 4 or more years professional software development experience will be considered.\nMinimum of two years experience in professional software development.\nFluent with software development best practices, including version control, documentation, testing and CI/CD (Jenkins, Github Actions, Terraform)\nExtensive experience with machine learning approaches and an understanding of the analysis and testing processes of machine learning algorithms. Experience with natural language processing (NLP) is a plus.\nMust have experience with cloud computing platforms. Experience with AWS (S3, EC2, etc) is a plus.\nExperience with SQL and NoSQL Databases. Experience with SparkSQL is a plus.\nProficiency with Python. Experience with Java and/or Scala is a plus.\nProficiency in working within a Linux ecosystem and extensive experience with Docker.\nExperience with Spark, particularly Databricks, is a plus.\n\nBeneficial Experience\n\nExperience working with healthcare data and knowledge of US healthcare systems\nFamiliarity with deep learning approaches and Large Language Models.\nFamiliarity with big data and distributed computing approaches.\nPublications or contributions to the machine learning community or open-source healthcare projects.\nExperience working in a startup / fast paced environment\nLocation: Boston, MA/Remote - Hybrid\n\nJob Type: regular, full-time\n\nSalary: $130,000 +\n\nFull-Time Employee Benefits\n\nLearn more about how we take care of our team.\n\nInsurance: We cover 80% of the cost of medical and dental insurance and offer vision insurance.\nRetirement: CMX offers a 401(k) plan that eligible employees can contribute to one month after their first day.\nLife: We offer employer-paid life insurance and short-term and long-term disability insurance.\nFlexibility: We have an unlimited PTO policy so you can take the time you need to relax and rejuvenate.\nLearning: All new hires complete our 7-week Fellowship program to learn about each of our departments.\nDevelopment: We provide annual performance evaluations and outline a clear path for promotions.\nEngagement: We host recurring events like Meditation Mondays, CMX Connections and Socials.\nRecognition: We recognize quarterly You've Been Awesome winners and celebrate our team's service milestones.\n\nBackground Check\n\nAll candidates will be required to complete a background check upon acceptance of a job offer.\n\nEqual Employment Opportunity\n\nOur company, as well as our products, are made better because we embrace diverse skills, perspectives, and ideas. CodaMetrix is an Equal Employment Opportunity Employer and all qualified applicants will receive consideration for employment.\n\n5LnXpGXx87",
+        "company_url": "https://www.techsolutions.com",
+        "company_url_direct": "https://www.techsolutions.com/about-us",
+        "company_addresses": [
+            "123 Tech Lane, San Francisco, CA 94103",
+            "456 Innovation Drive, San Jose, CA 95134"
+        ],
+        "company_industry": "Information Technology",
+        "company_num_employees": 500,
+        "company_revenue": "50M",
+        "company_description": "Tech Solutions Inc. is a leading provider of innovative technology solutions, helping businesses across the globe achieve their digital transformation goals.",
+        "logo_photo_url": "https://www.techsolutions.com/logo.png",
+        "banner_photo_url": "https://www.techsolutions.com/banner.jpg",
+        "ceo_name": "Jane Doe",
+        "ceo_photo_url": "https://www.techsolutions.com/ceo.jpg"
+    },
+    {
+        "site": "linkedin",
+        "job_url": "https://www.linkedin.com/jobs/view/3940409409",
+        "job_url_direct": "https://www.linkedin.com/jobs/view/3940409409",
+        "title": "CTO - Robotics Startup",
+        "company": "Dice",
+        "location": "Waltham, MA",
+        "job_type": "Full-Time",
+        "date_posted": "2024-06-01",
+        "interval": "Monthly",
+        "min_amount": 0,
+        "max_amount": 0,
+        "currency": "USD",
+        "is_remote": true,
+        "emails": [],
+        "description": "Dice is the leading career destination for tech experts at every stage of their careers. Our client, Motion Recruitment Partners, LLC, is seeking the following. Apply via Dice today!  \n\n\n**Job Title: Chief Technology Officer (CTO)**  \n**Company:**  \nOur client is a cutting-edge robotics startup based in Waltham, Massachusetts, dedicated to revolutionizing various industries through innovative robotic solutions. Their mission is to push the boundaries of technology and create impactful, scalable robotics systems that solve real-world problems.  \n\n\n\n\n**Position Overview:**  \n\n\n\n\n**Our client is**   \nseeking a dynamic and visionary Chief Technology Officer (CTO) to lead their technical team and drive the development of their groundbreaking robotics technology. The ideal candidate will be a strategic thinker with a proven track record of translating innovative ideas into scalable and commercially successful products. As the CTO, you will play a pivotal role in shaping their technology roadmap, fostering a culture of innovation, and driving the execution of our ambitious vision.  \n\n\n\n\n**Key Responsibilities:**  \n* Technology Strategy: Develop and execute a comprehensive technology strategy aligned with the company's overall vision and goals. Lead the research and development efforts to create disruptive robotics solutions that address market needs and opportunities.  \n* Product Development: Oversee the end-to-end product development lifecycle, from concept ideation to commercialization. Collaborate closely with cross-functional teams including engineering, design, and product management to deliver high-quality, innovative products on time and within budget.  \n* Technical Leadership: Provide technical leadership and mentorship to the engineering team. Foster a culture of creativity, collaboration, and continuous learning to drive technical excellence and innovation.  \n* Partnerships and Collaborations: Identify strategic partnerships and collaboration opportunities to accelerate technology development, enhance capabilities, and expand market reach. Build and maintain relationships with key stakeholders, industry partners, and research institutions.  \n* Technology Trends and Innovation: Stay abreast of emerging technologies, industry trends, and competitive landscape. Evaluate new technologies and innovation opportunities to maintain our competitive edge and drive continuous improvement.  \n* Regulatory Compliance: Ensure compliance with relevant regulations and standards governing robotics technology development and deployment. Work closely with legal and regulatory teams to navigate regulatory requirements and obtain necessary approvals.  \n\n\n**Qualifications:**  \n* Bachelor's degree in Computer Science, Robotics, Electrical Engineering, or a related field. Advanced degree (Master's or Ph.D.) preferred.  \n* Proven track record of leadership and success in technology development, preferably in the robotics or automation industry.  \n* Extensive experience in software and hardware development, robotics systems, and mechatronics.  \n* Strong strategic thinking and analytical skills, with the ability to translate technical vision into actionable plans and deliverables.  \n* Excellent communication and interpersonal skills, with the ability to inspire and motivate teams, build consensus, and influence key stakeholders.  \n* Entrepreneurial mindset with a passion for innovation and a drive to push the boundaries of technology.  \n* Experience in startup environments or fast-paced, high-growth companies is highly desirable.  \n* Knowledge of relevant regulatory requirements and standards in the robotics industry is a plus.  \n\n\n**Location:**  \nWaltham, Massachusetts CTO- Robotics Startup",
+        "company_url": "https://www.dice.com",
+        "company_url_direct": "https://dhigroupinc.com/home/default.aspx",
+        "company_addresses": [
+            "1040 Avenue of the Americas, 8th Floor, New York, NY 10018",
+            "6465 South Greenwood Plaza, Suite 400, Centennial, CO 80111",
+            "5745 Raccoon River Dr., Suite 200, West Des Moines, IA 50266"
+        ],
+        "company_industry": "Software Development",
+        "company_num_employees": 714,
+        "company_revenue": "150M",
+        "company_description": "A tech career hub that connects employers with skilled technology professionals. Dice was established in 1990 and offers a variety of recruiting solutions, including job boards, profiles, and engagement tools. Dice also provides tech professionals with career opportunities, data, insights, and advice.",
+        "logo_photo_url": "https://mma.prnewswire.com/media/1099567/Dice_Logo.jpg?p=facebook",
+        "banner_photo_url": "https://mma.prnewswire.com/media/1099567/Dice_Logo.jpg?p=facebook",
+        "ceo_name": "Art Zeile",
+        "ceo_photo_url": "https://images.squarespace-cdn.com/content/v1/53ac94bce4b0d277024aca6d/1464292062322-KOIGSVO9RADE16XRSXK3/Art.Zeile"
+    }
+]
