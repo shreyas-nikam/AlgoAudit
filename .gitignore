@@ -179,4 +179,7 @@ logs/*
 requirements copy.txt
 req.txt
 
+data/
+data/*
+data
 
