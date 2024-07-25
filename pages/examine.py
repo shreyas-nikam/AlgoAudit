@@ -58,6 +58,27 @@ def refresh_application():
 st.set_page_config(page_title="AlgoAudit", layout="wide", page_icon="🏬")
 
 
+
+css = """
+<style>
+    
+    div.st-emotion-cache-n0xe0n.e1nzilvr5 > p {
+       color: #2596be;       /* Sets the text color to blue, making it darker */
+        font-size: 20px;    /* Sets the font size to 20px */
+        margin-left: -25px;     /* Adds padding around the text */
+        margin-top: 10px;
+        margin-bottom: -5px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+
+</style>
+"""
+
+# Inject the CSS with markdown
+st.markdown(css, unsafe_allow_html=True)
+
 _, logout_button_space = st.columns([0.9, 0.1])
 if logout_button_space.button("Logout", use_container_width=True, type="primary"):
     for key in st.session_state.keys():
@@ -65,7 +86,10 @@ if logout_button_space.button("Logout", use_container_width=True, type="primary"
     st.switch_page("pages/login.py")
 
 sidebar(disabled_button="")
-
+home_button = st.sidebar.button("Home", key="home_button", use_container_width=True, type="primary")
+if home_button:
+    st.session_state.active_application = ""
+    st.switch_page("Home.py")
 
 if "user_info" not in st.session_state:
     st.session_state.user_info = {}
@@ -117,14 +141,6 @@ if st.session_state.user_info and st.session_state.allowed_config:
     st.session_state.config_list = json.load(
         open("data/config_list.json", "r"))
 
-    # Display the application options
-    # application_options = st.session_state.allowed_config['courses']
-    # application = application_options[0]
-
-    # Show a dropdown to select the application
-    st.session_state['active_application'] = reverse_mapping[st.sidebar.selectbox("Select Application:", mapping.values(
-    ), disabled=True if not st.session_state.user_info else False, on_change=set_config_param)]
-    print("Selected application", st.session_state['active_application'])
     application_index = st.session_state.allowed_config['courses'].index(
         st.session_state.active_application)
 
@@ -138,9 +154,16 @@ if st.session_state.user_info and st.session_state.allowed_config:
     if "Contact Form" in allowed_pages:
         allowed_pages[allowed_pages.index("Contact Form")] = "Feedback Page"
 
+    if st.session_state.active_application == "AEDT":
+        allowed_pages = [
+            "Home", "Course Material - Slides", "Course Material - Videos", "QuCopilot", "Assessment" , "What If Analysis", "Bias Audit", "My Reports", "Feedback Page"]
+        captions = ["Learn", "", "", "Prepare", "", "Validate", "", "", "", ""]
+    else:
+        captions = [""]*len(allowed_pages)
     # Show the pages based on the user's selection
     st.session_state.page = st.sidebar.radio("Select a Page:", allowed_pages,
-                                             disabled=True if not st.session_state.user_info else False)
+                                             disabled=True if not st.session_state.user_info else False, captions=captions)
+    
 
     set_config_param()
 else:

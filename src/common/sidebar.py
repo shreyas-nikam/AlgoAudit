@@ -13,4 +13,3 @@ def sidebar(disabled_button):
 
     st.sidebar.image("https://www.quantuniversity.com/assets/img/logo5.jpg", use_column_width="always")
     st.sidebar.divider()
-    

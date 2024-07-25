@@ -224,6 +224,7 @@ class BiasAuditCalculations:
                 add_audit_button = st.button("Add New Category", key="add_audit", use_container_width=True, type="primary")
             
             if add_audit_button:
+                st.toast("New Category Added! Scroll to the bottom to view the category.", position="top-right", type='info', icon="info")
                 st.session_state.click_count += 1
 
             st.divider()
