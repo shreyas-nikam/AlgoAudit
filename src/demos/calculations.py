@@ -35,6 +35,8 @@ class BiasAuditCalculations:
             st.session_state.click_count = 0
 
         st.header("Bias Audit Reporting Tool", divider='blue')
+        st.info("Refer to [this usage guide](https://codelabs-preview.appspot.com/?file_id=15022MSm5MXp8KcZEvXbcGCQGLLXMk6IBKMVc1KjjhrE#0) for instructions on how to use the bias audit reporting tool.")
+        
 
         data = None
 

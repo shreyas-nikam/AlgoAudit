@@ -112,7 +112,6 @@ else:
             if course!="Select":
                 st.session_state.active_application = course
                 st.switch_page("pages/examine.py")
-
     st.divider()
     st.caption("© 2021 AlgoAudit.AI. All rights reserved.")
 
